@@ -84,7 +84,7 @@ export const assets = {
 
 export const menu_list = [
     {
-        menu_name: "Salad",
+        menu_name: "Rice",
         menu_image: menu_1
     },
     {
@@ -92,7 +92,7 @@ export const menu_list = [
         menu_image: menu_2
     },
     {
-        menu_name: "Deserts",
+        menu_name: "Drinks",
         menu_image: menu_3
     },
     {
@@ -100,7 +100,7 @@ export const menu_list = [
         menu_image: menu_4
     },
     {
-        menu_name: "Cake",
+        menu_name: "CoolCake",
         menu_image: menu_5
     },
     {
@@ -119,50 +119,50 @@ export const menu_list = [
 export const food_list = [
     {
         _id: "1",
-        name: "Greek salad",
+        name: "Fried Rice",
         image: food_1,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "Meals"
     },
     {
         _id: "2",
-        name: "Veg salad",
+        name: "Mixed Rice",
         image: food_2,
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "Meals"
     }, {
         _id: "3",
-        name: "Clover Salad",
+        name: "Special Rice",
         image: food_3,
         price: 16,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "Meals"
     }, {
         _id: "4",
-        name: "Chicken Salad",
+        name: "Paneer fried Rice",
         image: food_4,
         price: 24,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "Meals"
     }, {
         _id: "5",
-        name: "Lasagna Rolls",
+        name: "Spring Rolls",
         image: food_5,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Rolls"
     }, {
         _id: "6",
-        name: "Peri Peri Rolls",
+        name: "Spring Rolls wet",
         image: food_6,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Rolls"
     }, {
         _id: "7",
-        name: "Chicken Rolls",
+        name: "Paneer Roll",
         image: food_7,
         price: 20,
         description: "Food provides essential nutrients for overall health and well-being",
@@ -176,21 +176,21 @@ export const food_list = [
         category: "Rolls"
     }, {
         _id: "9",
-        name: "Ripple Ice Cream",
+        name: "Chocolate Ice Cream",
         image: food_9,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Deserts"
     }, {
         _id: "10",
-        name: "Fruit Ice Cream",
+        name: "Skippi pops",
         image: food_10,
         price: 22,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Deserts"
     }, {
         _id: "11",
-        name: "Jar Ice Cream",
+        name: "Cone Ice Cream",
         image: food_11,
         price: 10,
         description: "Food provides essential nutrients for overall health and well-being",
@@ -205,7 +205,7 @@ export const food_list = [
     },
     {
         _id: "13",
-        name: "Chicken Sandwich",
+        name: "Paneer Sandwich",
         image: food_13,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
@@ -213,7 +213,7 @@ export const food_list = [
     },
     {
         _id: "14",
-        name: "Vegan Sandwich",
+        name: "Veggie Sandwich",
         image: food_14,
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
@@ -234,21 +234,21 @@ export const food_list = [
         category: "Sandwich"
     }, {
         _id: "17",
-        name: "Cup Cake",
+        name: " Cake",
         image: food_17,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Cake"
     }, {
         _id: "18",
-        name: "Vegan Cake",
+        name: "Cool Cake",
         image: food_18,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Cake"
     }, {
         _id: "19",
-        name: "Butterscotch Cake",
+        name: "britania Cake",
         image: food_19,
         price: 20,
         description: "Food provides essential nutrients for overall health and well-being",
@@ -262,7 +262,7 @@ export const food_list = [
         category: "Cake"
     }, {
         _id: "21",
-        name: "Garlic Mushroom ",
+        name: "Manchuria ",
         image: food_21,
         price: 14,
         description: "Food provides essential nutrients for overall health and well-being",

@@ -1,55 +1,68 @@
-.navbar{
+.navbar {
     padding: 20px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.navbar .logo{
+
+.navbar .logo {
     width: 150px;
 }
-.navbar-menu{
+
+.navbar-menu {
     display: flex;
     list-style: none;
     gap: 20px;
     color: #49557e;
     font-size: 20px;
-
-
 }
-.navbar-right{
+
+.navbar-right {
     display: flex;
-    align-items:center;
-    gap: 50px;
+    align-items: center;
+    gap: 20px;
+   
 }
-/* .navbar button{
+
+.navbar-search-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* Ensures icon and button align vertically */
+    gap: 10px;
+    /* Spacing between the basket icon and button */
+}
+
+.navbar-search-icon img {
+    width: 24px;
+    /* Adjust size of the basket icon */
+    height: 24px;
+}
+
+.navbar button {
     background: transparent;
     font-size: 16px;
     color: #49557e;
     border: 1px solid tomato;
-    padding: 20px 50px;
-    border-bottom: 50px;
-    cursor: pointer;
-} */
-.navbar button{
-    background: transparent;
-    font-size: 16px;
-    color: #49557e;
-    border: 1px solid tomato;
-    padding: 20px 50px;
-    border-bottom: -13px;
+    padding: 10px 20px;
+    /* Reduced padding for better alignment */
     cursor: pointer;
     transition: 0.3s;
-
 }
-.navbar button:hover{
+
+.navbar button:hover {
     background-color: #fff4f2;
-
 }
-.navbar .active{
+
+.navbar .active {
     padding-bottom: 2px;
     border-bottom: 2px solid #49557e;
-
 }
-.navbar li{
+
+.navbar li {
     cursor: pointer;
+}
+
+.navbar-search-icon {
+    position: relative;
 }
